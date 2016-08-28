@@ -43,7 +43,6 @@ html, body {
     float: left;
     background-image: url(photo/logo2.png);
     no-repeat
-    
 }
 
 @media (max-width: 485px) {
@@ -58,7 +57,7 @@ html, body {
    border-radius: 10px;
    list-style: none;
    padding: 0;
-   margin: 0;
+   margin: 0 30 0 0;
    float: right;
    }
 #main-navigation li {
@@ -78,3 +77,26 @@ html, body {
    margin-bottom: 10px;
     
 }
+
+#article {
+    padding-top: 400px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.art-text {
+    font-size: 45px;
+    color: #F5FFFA;
+    text-shadow: 0px 0px 15px rgba(255,255,205,0.8);
+    font-family: 'Baloo Paaji', cursive;
+    margin: 0;
+}
+
+.art-text2 {
+    font-size: 25px;
+    color: #EE82EE;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.4);
+    font-family: 'Baloo Paaji', cursive;
+    margin-top: 0;
+}
+   
