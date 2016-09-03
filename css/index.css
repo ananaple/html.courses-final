@@ -4,9 +4,19 @@ html, body {
     height: 100%;
 }
 
+
+#main {
+    z-index: 1;
+}
+
+#offer {
+    z-index: 0;
+}
+
+
 .bg {
     position: absolute;
-    z-index: -4321;
+    z-index: -1;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,7 +38,8 @@ html, body {
     height: 100px;
     background-image: linear-gradient(45deg, rgb(237, 162, 171), rgb(48, 50, 105));
     min-width: 100%;
-    z-index: 10;
+    z-index: 1;
+    opacity: 0.8 ;
   
 }
 
@@ -127,4 +138,25 @@ html, body {
     height: 100px;
     background-image: linear-gradient(45deg, rgb(237, 162, 171), rgb(48, 50, 105));
     min-width: 100%;
+}
+
+
+
+
+#reel-1472886198876-reel {
+    cursor: url('http://code.vostrel.net/jquery.reel.cur'),move;
+}
+
+#reel-1472886198876-reel, #reel-1472886198876-reel .reel {
+    display: block;
+}
+
+#reel-1472886198876-reel {
+    width: 800px;
+    height: 400px;
+}
+
+#reel-1472886198876-reel {
+    overflow: hidden;
+    position: relative;
 }
